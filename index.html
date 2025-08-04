@@ -14,7 +14,6 @@
     <meta name="description" content="Café com a TripleTen" />
     <meta name="author" content="João Maciel" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Café</title>
   </head>
@@ -32,7 +31,7 @@
             <li>
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
             </li>
-            <li><a class="nav__link" href="#">Contatos</a></li>
+            <li><a class="nav__link" href="#footer">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -140,7 +139,38 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo Triple Espresso"
+          />
+          <ul class="footer__list">
+            <li class="footer__social-heading">Mídia social</li>
+            <li class="footer__list-item">
+              <a class="footer__social-link" href="">
+                <img
+                  src="/images/facebook_white.svg"
+                  alt="Logo Facebook"
+                  class="footer__social-icon"
+                />Facebook</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__social-link" href="">
+                <img
+                  src="/images/instagram_white.svg"
+                  alt="Logo instagram"
+                  class="footer__social-icon"
+                />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__circle"></div>
+        <p class="footer__copyright">© 2025 João Maciel</p>
+      </footer>
     </div>
   </body>
 </html>

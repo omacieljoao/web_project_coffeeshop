@@ -1,0 +1,79 @@
+.header {
+  background-size: cover;
+  background-color: #fff;
+  background-image: url(/images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  position: relative;
+}
+
+.header__title {
+  max-width: 709px;
+  margin: 183px 0 0 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  margin: 28px 0 0 80px;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+  padding: 0;
+  row-gap: 0;
+}
+
+.header__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+.header__left-footer {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+
+.header__right-footer {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
