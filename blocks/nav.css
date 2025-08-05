@@ -21,3 +21,8 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+}

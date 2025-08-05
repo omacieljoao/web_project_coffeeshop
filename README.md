@@ -10,5 +10,3 @@ A página da Triple Espresso é o quarto projeto no programa de desenvolvimento 
   -pseudo-classes, pseudo-estados e pseudo-elementos
   -Formulario
   -iframes responsivos
-
-### Melhorias do projeto

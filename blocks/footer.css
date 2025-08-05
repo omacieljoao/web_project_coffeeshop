@@ -3,6 +3,7 @@
   color: #fff;
   position: relative;
   z-index: -2;
+  overflow: hidden;
 }
 
 .footer__content {
@@ -45,6 +46,8 @@
 
 .footer__social-link {
   margin: 0;
+  text-decoration: none;
+  color: white;
 }
 
 .footer__list-item {

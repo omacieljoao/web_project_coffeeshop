@@ -42,7 +42,11 @@
           Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
           você e vibrações aconchegantes para soltar a criatividade.
         </p>
-        <img class="header__image" src="/images/inside_coffee_shop.png" />
+        <img
+          class="header__image"
+          src="/images/inside_coffee_shop.png"
+          alt="Cafeteria"
+        />
         <div class="header__footer">
           <div class="header__left-footer">
             <p class="header__paragraph">Horários:</p>
@@ -129,11 +133,15 @@
             <button class="form__button" type="submit">
               Reservar uma mesa
             </button>
-            <label class="form__checkbox-container">
-              <input class="form__checkbox" id="terms" type="checkbox" />
+            <label for="terms" class="form__label form__checkbox-container">
+              <input
+                required
+                class="form__checkbox"
+                id="terms"
+                type="checkbox"
+              />
 
-              <label for="terms" class="form__label"
-                >Eu concordo com os termos de uso</label
+                Eu concordo com os termos de uso</label
               >
             </label>
           </form>
@@ -171,7 +179,7 @@
           </div>
         </div>
         <div class="footer__circle"></div>
-        <p class="footer__copyright">© 2025 João Maciel</p>
+        <p class="footer__copyright">&copy; 2025 João Maciel</p>
       </footer>
     </div>
   </body>
